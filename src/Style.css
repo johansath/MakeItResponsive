@@ -6,13 +6,83 @@ body {
     background-color: lavender;
 
 }
+.topp {
+    margin: 0px 0 120px;
+    height: 0px;
+    width: 100%;
+}
+
+.borderboks {
+    width: calc(100% - 55px);
+    height: 1500px;
+    overflow: hidden;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+}
+
+
+
+.borderboks-innside {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    width: 306px;
+    height: 495px;
+    margin: 0 auto;
+    display: block;
+}
+.borderboks-opp {
+    height: 340px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.borderboks-ned {
+    height: 110px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.borderboks-navn {
+    height: 30px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    color: darkcyan;
+    text-align: center;
+    font-size: 26px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.borderboks-opp img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+
 
 header {
     background-color: white;
-    width: 100%;
+    width: screen;
+    top: 0;
+    left: 5px;
+    right: 5px;
     height: 100px;
     position: fixed;
-    top: 0;
+    border-radius: 0 0 15px 15px;
+
 }
 
 header .logo {
@@ -81,6 +151,18 @@ header .link3 {
         font-size: 16px;
         color: darkcyan;
     }
+    .topp {
+        margin: 0px 0 100px;
+    }
+    .borderboks {
+        margin: 120px auto 0;
+        height: 500px;
+    }
+    .borderboks-innside {
+        display: inline-block;
+        width: 306px;
+    }
+
 
 }
 
@@ -127,6 +209,7 @@ header .link3 {
     width: calc(100% - 30px);
     height: 100px;
     background-color: darkcyan;
+    border-radius: 15px;
 }
 
 .index-knapper div h3 {
@@ -172,8 +255,9 @@ footer {
     width: calc(100% - 80px);
     padding: 40px 40px;
     margin-top: 20px;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 footer ul{
@@ -185,11 +269,12 @@ footer ul li{
     display: block;
     list-style: none;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 footer ul li a{
     font-family: Verdana;
     font-size: 25px;
-    color: white;
+    color: darkcyan;
     line-height: 20px;
 
 }
