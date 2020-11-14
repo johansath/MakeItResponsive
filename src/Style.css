@@ -181,6 +181,9 @@ header .link3 {
         display: inline-block;
         width: 306px;
     }
+    .borderboks-about {
+        margin: 120px auto 0;
+    }
 
 
 }
