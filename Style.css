@@ -53,6 +53,10 @@ body {
     font-size: 16px;
     border-radius: 15px;
 }
+.borderboks-opp ul {
+    list-style-type: none;
+}
+
 .borderboks-ned {
     height: 110px;
     width: calc(100% - 20px);
