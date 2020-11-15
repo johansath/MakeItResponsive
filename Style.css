@@ -263,10 +263,10 @@ header nav ul li a {
         float: left;
     }
     .index-link-en {
-        width: calc(25% - 20px) !important;
+        width: calc(33% - 20px) !important;
     }
     .index-link-to {
-        width: calc(50% - 20px) !important;
+        width: calc(33% - 20px) !important;
     }
     .index-knapper div h3 {
         line-height: 200px;
